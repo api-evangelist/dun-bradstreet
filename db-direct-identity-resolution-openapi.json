@@ -1,0 +1,142 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "D&B Direct+ Identity Resolution",
+        "description": "TODO: Add Description",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsplus.dnb.com\/"
+    ],
+    "paths": {
+        "\/v1\/match\/cleanseMatch": {
+            "get": {
+                "summary": "IDR Domain Email",
+                "description": "Idr domain email.",
+                "operationId": "V1MatchCleanseMatchGet10",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "email",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "countryISOAlpha2Code",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v1\/match\/extendedMatch": {
+            "get": {
+                "summary": "IDR & Append Domain URL",
+                "description": "Idr & append domain url.",
+                "operationId": "V1MatchExtendedMatchGet4",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "productId",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "versionId",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "url",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "countryISOAlpha2Code",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/token": {
+            "post": {
+                "summary": "Authentication - Access Token",
+                "description": "Authentication - access token.",
+                "operationId": "V2TokenPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v1\/match\/cleanseAndStandardize": {
+            "get": {
+                "summary": "Cleanse & Standardize",
+                "description": "Cleanse & standardize.",
+                "operationId": "V1MatchCleanseAndStandardizeGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "streetAddressLine1",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "countryISOAlpha2Code",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "addressLocality",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "addressRegion",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Authentication  access tokenrequest": {
+                "type": "object",
+                "properties": {
+                    "grant_type": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            }
+        }
+    }
+}
