@@ -9,8 +9,8 @@
         "have api",
         "risk management"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/dun-bradstreet\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -24,7 +24,7 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/db-direct-identity-resolution-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/dun-bradstreet\/master\/db-direct-identity-resolution-openapi.json"
                 },
                 {
                     "type": "x-openapi",
@@ -35,6 +35,10 @@
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "GitHub",
             "url": "https:\/\/github.com\/dandb"
