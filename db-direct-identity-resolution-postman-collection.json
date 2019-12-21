@@ -1,5 +1,5 @@
 {
-    "id": "848e4fa4e89932370d188a6a88e91f98",
+    "id": "785f12b5c0838ab8cd20ccf2db5166e2",
     "name": "D&B Direct+ Identity Resolution",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "928cac909dfe4c94827363c21784dee3",
+            "id": "09de9a1bb116d4ed81df724bfd8b6f75",
             "name": "IDR Domain Email",
             "url": "httpsplus.dnb.com\/\/v1\/match\/cleanseMatch",
             "description": "Idr domain email.",
@@ -51,11 +51,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "848e4fa4e89932370d188a6a88e91f98",
+            "collectionId": "785f12b5c0838ab8cd20ccf2db5166e2",
             "rawModeData": ""
         },
         {
-            "id": "e1f98275d3019e24ff9bdb053859b014",
+            "id": "84795729f436ce6c355eabb5ac758454",
             "name": "IDR & Append Domain URL",
             "url": "httpsplus.dnb.com\/\/v1\/match\/extendedMatch",
             "description": "Idr & append domain url.",
@@ -110,11 +110,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "848e4fa4e89932370d188a6a88e91f98",
+            "collectionId": "785f12b5c0838ab8cd20ccf2db5166e2",
             "rawModeData": ""
         },
         {
-            "id": "ba30527298f8d94240b58b28297810fc",
+            "id": "43bcb34892c402c8a1c9fff701027893",
             "name": "Authentication - Access Token",
             "url": "httpsplus.dnb.com\/\/v2\/token",
             "description": "Authentication - access token.",
@@ -148,11 +148,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "848e4fa4e89932370d188a6a88e91f98",
+            "collectionId": "785f12b5c0838ab8cd20ccf2db5166e2",
             "rawModeData": ""
         },
         {
-            "id": "b2714131781c9fe0854626f4490a447d",
+            "id": "9461d12a613f00f29b4a412b87ee54f5",
             "name": "Cleanse & Standardize",
             "url": "httpsplus.dnb.com\/\/v1\/match\/cleanseAndStandardize",
             "description": "Cleanse & standardize.",
@@ -207,7 +207,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "848e4fa4e89932370d188a6a88e91f98",
+            "collectionId": "785f12b5c0838ab8cd20ccf2db5166e2",
             "rawModeData": ""
         }
     ]
